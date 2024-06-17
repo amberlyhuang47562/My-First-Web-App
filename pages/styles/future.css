@@ -1,16 +1,7 @@
 #navigation {
+    
 }
 
-#text {
-    border: 5px solid pink
-}
-
-h1 {
-    text-align: center; border-style: double;
-}
-h3 {
-    text-align: center; color: rgb(63, 42, 32);
-}
 ul {
     list-style-type: none;
     border: 5px solid greenyellow;
@@ -34,6 +25,17 @@ li a:hover {
 
 .currentPage {
     background-color: black;
+}
+
+#text {
+    border: 5px solid pink
+}
+
+h1 {
+    text-align: center; border-style: double;
+}
+h3 {
+    text-align: center; color: rgb(63, 42, 32);
 }
 body {
     background-color: rgb(252, 229, 192);

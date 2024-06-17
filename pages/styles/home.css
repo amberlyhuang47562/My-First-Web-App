@@ -1,3 +1,28 @@
+ul {
+    list-style-type: none;
+    border: 5px solid greenyellow;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: whitesmoke;
+}
+
+.currentPage {
+    background-color: black;
+}
+
 h1 {
     text-align: center; border-style: double;
 }
@@ -8,13 +33,13 @@ body {
     background-color: rgb(252, 229, 192);
     text-align: center;
 }
-#corpse_bride {
+#settphel {
     height: 250px; width: 500px; border-style: dotted;
 }
 p {
     text-align: center; font-size: 17px; color: rgb(78, 55, 38);
 }
-.corpsebride {
+.settphel {
     font-size: 12px;
 }
 #architecture {
