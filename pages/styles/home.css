@@ -10,6 +10,7 @@ li {
     float: left;
 }
 li a {
+    color: whitesmoke;
     display: block;
     text-align: center;
     padding: 10px 20px;
@@ -20,6 +21,7 @@ li a:hover {
 }
 
 .currentPage {
+    color:black; 
     background-color: rgb(206,179,150);
 }
 
@@ -43,4 +45,8 @@ p {
 }
 .settphel {
     font-size: 12px;
+}
+
+footer {
+    margin-top: 200px;
 }
