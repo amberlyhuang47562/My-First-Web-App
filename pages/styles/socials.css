@@ -1,3 +1,28 @@
+ul {
+    list-style-type: none;
+    border: 5px solid rgb(125,98,69);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(125,98,69);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(255, 245, 230);
+}
+
+.currentPage {
+    background-color: rgb(206,179,150);
+}
+
 h1 {
     text-align: center; border-style: double;
 }
