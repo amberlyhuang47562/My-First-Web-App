@@ -1,50 +1,80 @@
-ul {
-    list-style-type: none;
-    border: 5px solid rgb(125,98,69);
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(125,98,69);
-}
-li {
-    float: left;
-}
-li a {
-    color: whitesmoke;
-    display: block;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: rgb(255, 245, 230);
-}
-
-.currentPage {
-    color:black; 
-    background-color: rgb(206,179,150);
+#navigation {
+    ul {
+        list-style-type: none;
+        border: 5px solid rgb(125,98,69);
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(125,98,69);
+    }
+    li {
+        float: left;
+    }
+    li a {
+        color: whitesmoke;
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(255, 245, 230);
+    }
+    
+    .currentPage {
+        color:black; 
+        background-color: rgb(206,179,150);
+    }
 }
 
 h1 {
-    text-align: center; border-style: double;
+    text-align: center; 
+    border: 4px;
+    border-style: double;
     margin: 20px 200px;
     padding: 10px 5px;
 }
+
+h2 {
+    margin: 40px;
+}
+
 h3 {
     text-align: center; color: rgb(63, 42, 32);
 }
+
 body {
     background-color: rgb(251, 231, 199);
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 #settphel {
-    height: 250px; width: 500px; border-style: dotted;
+    height: 250px; width: 500px; 
+    border: 5px;
+    border-style: dotted;
 }
+
+.settphel {
+    font-size: 14px;
+    margin: 2px;
+}
+
 p {
     text-align: center; font-size: 17px; color: rgb(78, 55, 38);
+    margin: 30px 75px;
 }
-.settphel {
-    font-size: 12px;
+
+#luvs {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#lovelist {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
 footer {

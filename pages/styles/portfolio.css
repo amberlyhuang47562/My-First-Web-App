@@ -22,3 +22,9 @@ li a:hover {
 .currentPage {
     background-color: rgb(206,179,150);
 }
+body{
+    text-align: center;
+}
+video{
+    margin: 0px 30px;
+}
